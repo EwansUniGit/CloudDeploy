@@ -14,7 +14,7 @@ const client = new Client({
     password: 'eloquent-glancing',
     port: 5432
 });
-
+//added a comment here for push purposes
 client.connect((err) => {
     if (err) {
         console.error('Error connecting to PostgreSQL:', err.stack);
