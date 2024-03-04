@@ -15,7 +15,6 @@ const client = new Client({
     port: 5432
 });
 
-// client.connect();
 client.connect((err) => {
     if (err) {
         console.error('Error connecting to PostgreSQL:', err.stack);
