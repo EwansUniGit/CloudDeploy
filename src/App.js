@@ -1,5 +1,6 @@
 import React, {useState, useEffect} from 'react';
-import axios from 'axios';
+const axios = require('axios');
+
 //import button from 'react-bootstrap/button';
 import 'bootstrap/dist/css/bootstrap.min.css';
 //import Container from 'react-bootstrap/Container'
