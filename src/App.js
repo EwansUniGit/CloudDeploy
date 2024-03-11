@@ -41,7 +41,7 @@ const App = () => {
         .catch(error => console.error('Error deleting todo:', error));
   };
   return (
-      <Container>
+      <table>
         <row><h1>To-Do App</h1></row>
           <row><input type="text" value={newTask} onChange={e => setNewTask(e.target.value)} /></row>
         <button onClick={addTask}>Add task</button>
@@ -56,7 +56,7 @@ const App = () => {
               </row>
           ))}
         </ul>
-      </Container>
+      </table>
   );
 };
 
